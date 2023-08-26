@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Mobile.css">
+    <link rel="stylesheet" href="TAB.CSS">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula-I-nformations</title>
+
+    <script>
+        $('.nav-link').on('click', function() {
+	$('.active-link').removeClass('active-link');
+	$(this).addClass('active-link');
+});
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">DRIVERS</button>
+                    <div class="dropdown-content">
+                        <a href="HAM.HTML">1 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/MERCEDES.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lewis Hamilton</a>
+                        <a href="SCH.HTML">2 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/BENETTON.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael Schumacher</a>
+                        <a href="JMF.HTML">3 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/ALFA ROMEO.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/MERCEDES.png" alt="">&nbsp;<img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;<img class="imgClogo" src="LOGOS/MASERATI.png" alt=""> Juan Manuel Fangio</a>
+                        <a href="PRO.HTML">4 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alain Prost</a>
+                        <a href="VET.HTML">5 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/REDBULL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sebastian Vettel</a>
+                        <a href="SEN.HTML">6 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ayrton Senna</a>
+                        <a href="BRA.HTML">7 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/COOPER.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/BRABHAM.jpg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jack Brabham</a>
+                        <a href="STE.HTML">8 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/MATRA.png" alt="">&nbsp; <img class="imglogo" src="LOGOS/TYRRELL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jackie Stewart</a>
+                        <a href="NIK.HTML">9 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Niki Lauda</a>
+                        <a href="PIQ.HTML">10 &nbsp; <img class="imgClogo" src="Logos/BRABHAM.jpg" alt="">&nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelson Piquet</a>
+                        <a href="ALO.HTML">11 &nbsp; <img class="imgClogo" src="Logos/RENAULT.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fernando Alonso</a>
+                        <a href="VER.HTML">12 &nbsp; <img class="imglogo" src="Logos/REDBULL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Max Verstappen</a>
+                        <a href="ASC.HTML">13 &nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alberto Ascari</a>
+                        <a href="HIL.HTML">14 &nbsp; <img class="imgClogo" src="Logos/BRM.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graham Hill</a>
+                        <a href="JIM.HTML">15 &nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jim Clark</a>
+                        <a href="FIT.HTML">16 &nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Emerson Fittipaldi</a>
+                        <a href="HAK.HTML">17 &nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mika Häkkinen</a>
+                        <a href="RAI.HTML">18 &nbsp; <img class="imgClogo" src="Logos/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kimi Räikkönen</a>
+                        <a href="NOR.HTML">19 &nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lando Norris</a>
+                        <a href="LAT.HTML">20 &nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Goatifi</a>
+                    </div>
+                  </div>
+        
+                  <a href="Teams.HTML">TEAMS</a>
+        
+                  <a href="CIRCUITS.HTML">CIRCUITS</a>
+        
+                  <div class="dropdown">
+                    <button class="dropbtn">RULES</button>
+                    <div class="subnav-content">
+                        <a href="PEN.HTML">PENALTIES</a>
+                        <a href="FLAG.HTML">FLAGS</a>
+                        <a href="PIT.HTML">PIT</a>
+                        <a href="SC.HTML">SAFETY CAR</a>
+                        <a href="PNTS.HTML">POINTS</a>
+                        <a href="QUAL.HTML">QUALIFICATIONS</a>
+                        <a href="ENG.HTML">CAR & ENGINE</a>
+                    </div>
+                  </div>
+        
+                  <a href="STORIES.HTML">STORIES</a>
+            </div>
+        </header>
+    
+        <div class="leftNav">
+            <a href="FI.HTML"><img src="Logos/FILOGO.png" alt="FI logo"></a>
+            <div class="leftCol">
+                <ul>
+                    <li>
+                        <a href="F1.HTML">F1</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="CAR.HTML">F1-CAR</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="DRIVER.HTML">F1-DRIVER</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="CIRCUIT.HTML">F1-CIRCUIT</a>
+                        <div class="underline"></div>
+                    </li>
+                </ul>
+                <ul class="icon">
+                    <li><a href="https://www.instagram.com/f1/"><img src="ICON/instaIcon.png" alt=""></a><a href="https://www.youtube.com/@Formula1"><img src="ICON/YTicon.png" alt=""></a></li>
+                    <li><a href=""><img src="ICON/SCicon1.png" alt=""></a><a href="https://www.facebook.com/Formula1"><img src="icon/FBicon.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <main>
+            <table border="1">
+                <tr class="bgdriver">
+                    <th colspan="2"><img src="DRIVERSIMG/Max.png" alt=""></th>
+                </tr>
+                <tr>
+                    <th>Nationality</th>
+                    <td>Dutch <img src="icon/netherlands.png" alt=""></td>
+                </tr>
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>30 September 1997 (age 25)</td>
+                </tr>
+                <tr>
+                    <th>Place of Birth</th>
+                    <td>Hasselt, Belgium</td>
+                </tr>
+                <tr>
+                    <th>Teams</th>
+                    <td>RedBull</td>
+                </tr>
+                <tr>
+                    <th>Height</th>
+                    <td>1.81m</td>
+                </tr>
+                <tr>
+                    <th>Debut</th>
+                    <td>2015 Australian Grand Prix(RedBull)</td>
+                </tr>
+                <tr>
+                    <th>Championship</th>
+                    <td>2021, 2022 (2)</td>
+                </tr>
+                <tr>
+                    <th>First Win</th>
+                    <td>2016 Spanish Grand Prix(RedBull)</td>
+                </tr>
+                <tr>
+                    <th>Car Number</th>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <th>Wins</th>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <th>Podiums</th>
+                    <td>77</td>
+                </tr>
+                <tr>
+                    <th>Pole Positions</th>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th>Front Row Starts</th>
+                    <td>42</td>
+                </tr>
+                <tr>
+                    <th>Fastest Laps</th>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <th>Grands Prix Entered</th>
+                    <td>163</td>
+                </tr>
+                <tr>
+                    <th>Points</th>
+                    <td>2011.5</td>
+                </tr>
+            </table>
+    
+            <h1>Max Emilian Verstappen</h1>
+            <P>&nbsp;&nbsp;&nbsp;is a Belgian-Dutch racing driver and the 2021 and 2022 Formula One World Champion. He competes under the Dutch flag in Formula One with Red Bull Racing. Verstappen is the son of racing drivers Jos Verstappen, who also competed in Formula One, and Sophie Kumpen. He had a successful run in junior karting and single-seater categories – including KF3, WSK World Series, KZ2 and European Formula 3 – beating several records.</P>
+            <iframe src="https://www.youtube.com/embed/ZonAkTpMLKI" frameborder="1"></iframe>
+            <p>&nbsp;&nbsp;&nbsp;At the 2015 Australian Grand Prix, when he was aged 17 years, 166 days, he became the youngest driver to compete in Formula One. After spending the 2015 season with Scuderia Toro Rosso, Verstappen started his 2016 campaign with the Italian team before being promoted to parent team Red Bull Racing after four races as a replacement for Daniil Kvyat. At the age of 18, he won the 2016 Spanish Grand Prix on his debut for Red Bull Racing, becoming the youngest-ever driver and the first Dutch driver to win a Formula One Grand Prix. After winning the 2021 Abu Dhabi Grand Prix, Verstappen became the first Dutch driver to win the Formula One World Championship, and the 34th Formula One World Drivers' Champion. He won his second consecutive Formula One championship the next season.</p>
+            <p>As of the 2022 Abu Dhabi Grand Prix, Verstappen has achieved 35 victories and 20 pole positions. He scored the first hat-trick of his career at the 2021 French Grand Prix and his first grand slam at the 2021 Austrian Grand Prix. He scored his second grand slam at the 2022 Emilia Romagna Grand Prix.[9] Verstappen is set to remain at Red Bull until at least the end of the 2028 season after signing a contract extension.</p>
+            
+            <h2>Brain Switch Off to Distractions</h2>
+            <p>&nbsp;&nbsp;&nbsp;Albon said he was surprised that Max seemed to be immune to the factors that made many drivers uncomfortable during the race. For example, wind or instability while driving.   Max can turn his mind off when it comes to this part of the race.</p>
+            <p>&nbsp;&nbsp;&nbsp;Coulthard agrees. When one hears Max laughing and joking on the radio  some people get confused. Running at 200 mph is not distracting. It focuses on multiple solutions. If you drive on a track with 15 turns, you have to make 15 decisions every minute and 30 seconds. Not too much.</p>
+    
+           </main>
+
+    <footer>
+
+    </footer>
+    </div>
+</body>
+</html>

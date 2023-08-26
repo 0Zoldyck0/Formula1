@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Mobile.css">
+    <link rel="stylesheet" href="TAB.CSS">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula-I-nformations</title>
+
+    <script>
+        $('.nav-link').on('click', function() {
+	$('.active-link').removeClass('active-link');
+	$(this).addClass('active-link');
+});
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">DRIVERS</button>
+                    <div class="dropdown-content">
+                        <a href="HAM.HTML">1 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/MERCEDES.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lewis Hamilton</a>
+                        <a href="SCH.HTML">2 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/BENETTON.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael Schumacher</a>
+                        <a href="JMF.HTML">3 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/ALFA ROMEO.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/MERCEDES.png" alt="">&nbsp;<img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;<img class="imgClogo" src="LOGOS/MASERATI.png" alt=""> Juan Manuel Fangio</a>
+                        <a href="PRO.HTML">4 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alain Prost</a>
+                        <a href="VET.HTML">5 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/REDBULL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sebastian Vettel</a>
+                        <a href="SEN.HTML">6 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ayrton Senna</a>
+                        <a href="BRA.HTML">7 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/COOPER.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/BRABHAM.jpg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jack Brabham</a>
+                        <a href="STE.HTML">8 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/MATRA.png" alt="">&nbsp; <img class="imglogo" src="LOGOS/TYRRELL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jackie Stewart</a>
+                        <a href="NIK.HTML">9 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Niki Lauda</a>
+                        <a href="PIQ.HTML">10 &nbsp; <img class="imgClogo" src="Logos/BRABHAM.jpg" alt="">&nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelson Piquet</a>
+                        <a href="ALO.HTML">11 &nbsp; <img class="imgClogo" src="Logos/RENAULT.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fernando Alonso</a>
+                        <a href="VER.HTML">12 &nbsp; <img class="imglogo" src="Logos/REDBULL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Max Verstappen</a>
+                        <a href="ASC.HTML">13 &nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alberto Ascari</a>
+                        <a href="HIL.HTML">14 &nbsp; <img class="imgClogo" src="Logos/BRM.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graham Hill</a>
+                        <a href="JIM.HTML">15 &nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jim Clark</a>
+                        <a href="FIT.HTML">16 &nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Emerson Fittipaldi</a>
+                        <a href="HAK.HTML">17 &nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mika Häkkinen</a>
+                        <a href="RAI.HTML">18 &nbsp; <img class="imgClogo" src="Logos/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kimi Räikkönen</a>
+                        <a href="NOR.HTML">19 &nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lando Norris</a>
+                        <a href="LAT.HTML">20 &nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Goatifi</a>
+                    </div>
+                  </div>
+        
+                  <a href="Teams.HTML">TEAMS</a>
+        
+                  <a href="CIRCUITS.HTML">CIRCUITS</a>
+        
+                  <div class="dropdown">
+                    <button class="dropbtn">RULES</button>
+                    <div class="subnav-content">
+                        <a href="PEN.HTML">PENALTIES</a>
+                        <a href="FLAG.HTML">FLAGS</a>
+                        <a href="PIT.HTML">PIT</a>
+                        <a href="SC.HTML">SAFETY CAR</a>
+                        <a href="PNTS.HTML">POINTS</a>
+                        <a href="QUAL.HTML">QUALIFICATIONS</a>
+                        <a href="ENG.HTML">CAR & ENGINE</a>
+                    </div>
+                  </div>
+        
+                  <a href="STORIES.HTML">STORIES</a>
+            </div>
+        </header>
+    
+        <div class="leftNav">
+            <a href="FI.HTML"><img src="Logos/FILOGO.png" alt="FI logo"></a>
+            <div class="leftCol">
+                <ul>
+                    <li>
+                        <a href="F1.HTML">F1</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="CAR.HTML">F1-CAR</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="DRIVER.HTML">F1-DRIVER</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="CIRCUIT.HTML">F1-CIRCUIT</a>
+                        <div class="underline"></div>
+                    </li>
+                </ul>
+                <ul class="icon">
+                    <li><a href="https://www.instagram.com/f1/"><img src="ICON/instaIcon.png" alt=""></a><a href="https://www.youtube.com/@Formula1"><img src="ICON/YTicon.png" alt=""></a></li>
+                    <li><a href=""><img src="ICON/SCicon1.png" alt=""></a><a href="https://www.facebook.com/Formula1"><img src="icon/FBicon.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <main>
+            <table border="1">
+                <tr class="bgdriver">
+                    <th colspan="2"><img src="DRIVERSIMG/Kimi.png" alt=""></th>
+                </tr>
+                <tr>
+                    <th>Nationality</th>
+                    <td>Finland <img src="icon/finland.jpg" alt=""></td>
+                </tr>
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>17 October 1979 (age 43)</td>
+                </tr>
+                <tr>
+                    <th>Place of Birth</th>
+                    <td>Espoo, Finland</td>
+                </tr>
+                <tr>
+                    <th>Teams</th>
+                    <td>Sauber, McLaren, Ferrari, Lotus, Alfa Romeo</td>
+                </tr>
+                <tr>
+                    <th>Height</th>
+                    <td>1.75m</td>
+                </tr>
+                <tr>
+                    <th>Debut</th>
+                    <td>2001 Australian Grand Prix(Sauber)</td>
+                </tr>
+                <tr>
+                    <th>Championship</th>
+                    <td>2007 (1)</td>
+                </tr>
+                <tr>
+                    <th>First Win</th>
+                    <td>2003 Malaysian Grand Prix(McLaren)</td>
+                </tr>
+                <tr>
+                    <th>Car Number</th>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <th>Wins</th>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <th>Podiums</th>
+                    <td>103</td>
+                </tr>
+                <tr>
+                    <th>Pole Positions</th>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <th>Front Row Starts</th>
+                    <td>42</td>
+                </tr>
+                <tr>
+                    <th>Fastest Laps</th>
+                    <td>46</td>
+                </tr>
+                <tr>
+                    <th>Grands Prix Entered</th>
+                    <td>353</td>
+                </tr>
+                <tr>
+                    <th>Points</th>
+                    <td>1873</td>
+                </tr>
+            </table>
+    
+            <h1>Kimi-Matias Räikkönen</h1>
+            <P>&nbsp;&nbsp;&nbsp;Räikkönen nicknamed "The Iceman", is a Finnish racing driver who competed in Formula One between 2001 and 2021 for Sauber, McLaren, Ferrari, Lotus, and Alfa Romeo. Räikkönen won the 2007 Formula One World Championship while driving for Ferrari; he also managed to finish second overall twice and third three times. Räikkönen is the most successful Finnish Formula One driver by several metrics,[a] and has the fifth-most podium finishes (103), third-most fastest laps (46), and second-most race starts (349) in Formula One history. He is known for his reserved personality and reluctance to participate in public relations.</P>
+            <p>&nbsp;&nbsp;&nbsp;He entered Formula One as a regular driver for Sauber-Petronas in 2001, having previously competed in just 23 car races. He joined McLaren-Mercedes in 2002, and quickly established himself as a title contender by finishing runner-up in the championship to Michael Schumacher in 2003, and Fernando Alonso in 2005. Räikkönen's time at McLaren was marred by a succession of unreliable cars, prompting a move to Ferrari in 2007. This change saw him crowned Formula One World Drivers' Champion in his first season, pipping both McLaren drivers—Lewis Hamilton and Alonso—to the title by one point. In 2008, he equalled the record for the greatest number of fastest laps in a season for the second time.</p>
+            <iframe src="https://www.youtube.com/embed/84rAifz3lnQ" frameborder="1"></iframe>
+            <p>&nbsp;&nbsp;&nbsp;Räikkönen left both Scuderia Ferrari and the sport after the 2009 season, his sole victory that year having come in that season's Belgian Grand Prix due to driving an uncompetitive Ferrari F60.  He went on to drive for Lotus in 2012 and 2013, scoring the team's only victories. His stint in the WRC saw him beat some more experienced rally drivers with a best result of fifth, a stage win and 10th in the championship in both seasons.  During his second Ferrari stint, Räikkönen scored 26 podiums, two pole positions, and a victory at the 2018 United States Grand Prix, 113 Grands Prix after his last victory. </p>
+            
+            <h2>Last Ferrari Champion</h2>
+            <p>&nbsp;&nbsp;&nbsp;This is a well-known one, but one Ferrari fans would have refused to believe if they had been told it back when he won the title in Brazil in 2007. That season, he put together a monumental late run of form to pip McLaren duo Fernando Alonso and Lewis Hamilton and become a World Champion, and nobody in red has been able to do that since. Felipe Massa and Alonso both narrowly missed out in season finales, while Sebastian Vettel lost out twice in battles with the Mercedes of Hamilton. Clearly, Kimi is a tough act to follow…</p>
+           </main>
+
+    <footer>
+
+    </footer>
+    </div>
+</body>
+</html>

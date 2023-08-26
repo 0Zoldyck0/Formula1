@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Mobile.css">
+    <link rel="stylesheet" href="TAB.CSS">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula-I-nformations</title>
+
+    <script>
+        $('.nav-link').on('click', function() {
+	$('.active-link').removeClass('active-link');
+	$(this).addClass('active-link');
+});
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">DRIVERS</button>
+                    <div class="dropdown-content">
+                        <a href="HAM.HTML">1 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/MERCEDES.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lewis Hamilton</a>
+                        <a href="SCH.HTML">2 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/BENETTON.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael Schumacher</a>
+                        <a href="JMF.HTML">3 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/ALFA ROMEO.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/MERCEDES.png" alt="">&nbsp;<img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;<img class="imgClogo" src="LOGOS/MASERATI.png" alt=""> Juan Manuel Fangio</a>
+                        <a href="PRO.HTML">4 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alain Prost</a>
+                        <a href="VET.HTML">5 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/REDBULL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sebastian Vettel</a>
+                        <a href="SEN.HTML">6 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ayrton Senna</a>
+                        <a href="BRA.HTML">7 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/COOPER.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/BRABHAM.jpg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jack Brabham</a>
+                        <a href="STE.HTML">8 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/MATRA.png" alt="">&nbsp; <img class="imglogo" src="LOGOS/TYRRELL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jackie Stewart</a>
+                        <a href="NIK.HTML">9 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Niki Lauda</a>
+                        <a href="PIQ.HTML">10 &nbsp; <img class="imgClogo" src="Logos/BRABHAM.jpg" alt="">&nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelson Piquet</a>
+                        <a href="ALO.HTML">11 &nbsp; <img class="imgClogo" src="Logos/RENAULT.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fernando Alonso</a>
+                        <a href="VER.HTML">12 &nbsp; <img class="imglogo" src="Logos/REDBULL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Max Verstappen</a>
+                        <a href="ASC.HTML">13 &nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alberto Ascari</a>
+                        <a href="HIL.HTML">14 &nbsp; <img class="imgClogo" src="Logos/BRM.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graham Hill</a>
+                        <a href="JIM.HTML">15 &nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jim Clark</a>
+                        <a href="FIT.HTML">16 &nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Emerson Fittipaldi</a>
+                        <a href="HAK.HTML">17 &nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mika Häkkinen</a>
+                        <a href="RAI.HTML">18 &nbsp; <img class="imgClogo" src="Logos/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kimi Räikkönen</a>
+                        <a href="NOR.HTML">19 &nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lando Norris</a>
+                        <a href="LAT.HTML">20 &nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Goatifi</a>
+                    </div>
+                  </div>
+        
+                  <a href="Teams.HTML">TEAMS</a>
+        
+                  <a href="CIRCUITS.HTML">CIRCUITS</a>
+        
+                  <div class="dropdown">
+                    <button class="dropbtn">RULES</button>
+                    <div class="subnav-content">
+                        <a href="PEN.HTML">PENALTIES</a>
+                        <a href="FLAG.HTML">FLAGS</a>
+                        <a href="PIT.HTML">PIT</a>
+                        <a href="SC.HTML">SAFETY CAR</a>
+                        <a href="PNTS.HTML">POINTS</a>
+                        <a href="QUAL.HTML">QUALIFICATIONS</a>
+                        <a href="ENG.HTML">CAR & ENGINE</a>
+                    </div>
+                  </div>
+        
+                  <a href="STORIES.HTML">STORIES</a>
+            </div>
+        </header>
+    
+        <div class="leftNav">
+            <a href="FI.HTML"><img src="Logos/FILOGO.png" alt="FI logo"></a>
+            <div class="leftCol">
+                <ul>
+                    <li>
+                        <a href="F1.HTML">F1</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="CAR.HTML">F1-CAR</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="DRIVER.HTML">F1-DRIVER</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="CIRCUIT.HTML">F1-CIRCUIT</a>
+                        <div class="underline"></div>
+                    </li>
+                </ul>
+                <ul class="icon">
+                    <li><a href="https://www.instagram.com/f1/"><img src="ICON/instaIcon.png" alt=""></a><a href="https://www.youtube.com/@Formula1"><img src="ICON/YTicon.png" alt=""></a></li>
+                    <li><a href=""><img src="ICON/SCicon1.png" alt=""></a><a href="https://www.facebook.com/Formula1"><img src="icon/FBicon.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <main>
+            <table border="1">
+                <tr class="bgdriver">
+                    <th colspan="2"><img src="DRIVERSIMG/AlainProst.png" alt=""></th>
+                </tr>
+                <tr>
+                    <th>Nationality</th>
+                    <td>Argentine <img src="icon/france.png" alt=""></td>
+                </tr>
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>24 February 1955 (age 67)</td>
+                </tr>
+                <tr>
+                    <th>Place of Birth</th>
+                    <td>Lorette, Loire, France</td>
+                </tr>
+                <tr>
+                    <th>Teams</th>
+                    <td>McLaren, Renault, Ferrari, Williams</td>
+                </tr>
+                <tr>
+                    <th>Height</th>
+                    <td>1.65m</td>
+                </tr>
+                <tr>
+                    <th>Debut</th>
+                    <td>1980 Argentine Grand Prix(McLaren)</td>
+                </tr>
+                <tr>
+                    <th>Championship</th>
+                    <td>1985, 1986, 1989, 1993 (4)</td>
+                </tr>
+                <tr>
+                    <th>First Win</th>
+                    <td>1950 Monaco Grand Prix(McLaren)</td>
+                </tr>
+                <tr>
+                    <th>Car Number</th>
+                    <td>1-2</td>
+                </tr>
+                <tr>
+                    <th>Wins</th>
+                    <td>51</td>
+                </tr>
+                <tr>
+                    <th>Podiums</th>
+                    <td>106</td>
+                </tr>
+                <tr>
+                    <th>Pole Positions</th>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <th>Front Row Starts</th>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <th>Fastest Laps</th>
+                    <td>41</td>
+                </tr>
+                <tr>
+                    <th>Grands Prix Entered</th>
+                    <td>202</td>
+                </tr>
+                <tr>
+                    <th>Points</th>
+                    <td>768.5</td>
+                </tr>
+            </table>
+    
+            <h1>Alain Marie Pascal Prost</h1>
+            <P>&nbsp;&nbsp;&nbsp;He finished in the points on his Formula One début – at the San Martín Autodrome in Buenos Aires, Argentina, where he took his first podium a year later – and took his first race victory a year later at his home Grand Prix in France, driving for the factory Renault team. In 1986, at Adelaide in the last race of the season, he beat Mansell and Piquet of Williams to the title, after Mansell retired late in the race and Piquet was pulled in for a late precautionary pit stop. From 2003 to 2012 he competed in the Andros Trophy, which is an ice racing championship, taking 38 race victories and winning the championship 3 times. Skilled at setting up his car for race conditions, Prost would often conserve his brakes and tyres early in a race, leaving them fresher for a challenge at the end.</P>
+            <p>&nbsp;&nbsp;&nbsp;He progressed through motor sport's junior ranks, winning the French and European Formula Three championships, before joining the McLaren Formula One team in 1980 at the age of 24. With a competitive car, Prost won the 1993 championship and retired from Formula One driving at the end of the year. A four-time Formula One World Drivers' Champion, from 1987 until 2001 he held the record for most Grand Prix victories until Michael Schumacher surpassed Prost's total of 51 victories at the 2001 Belgian Grand Prix. Before the end of a winless 1991 season Prost was fired by Ferrari for his public criticism of the team.</p>
+            <iframe src="https://www.youtube.com/embed/cc9F-uaOovg" frameborder="1"></iframe>
+            
+            <h2>A Strategy Professor</h2>
+            <p>&nbsp;&nbsp;&nbsp;Alain Prost, “le professeur”, controversial driver. Not always the quickest, often plotting behind the scenes. Tenacious politician. He got in the way great champions that committed him in epic battles from which he would often lose out. Despite it he won a lot and was a symbol of Formula 1 of his time. No maths in the Lauda style or perfectionism in the Senna’s one, he won by strategy. And he was undoubtedly a champion. That image of him carrying the coffin of Senna, his greatest enemy on track, gives him back to his true context, the one of determined driver and truthful person. Him and Ayrton, gotten closer after his retirement, side by side for the last time. One of the most very touching moments of Formula 1, always on the edge between life and death.</p>
+            <p>&nbsp;&nbsp;&nbsp;Cold, analytical and intelligent, impenetrable to emotions. Almost insensitive to sunlight. To see him racing with a darkened visor, the environmental conditions were to be truly amazing. Another mania of the Professor were gloves. They had to be shabby, almost tattered, and the grip on the wheel was with fingerprints hooked in the crown. It was needed for driving sensibility, especially on wet. But, to hear Ayrton Senna, wetness was not the centerpiece of Alain Prost, to the point that the Brazilian called him “o cauteloso”.</p>
+            
+    
+           </main>
+
+    <footer>
+
+    </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Mobile.css">
+    <link rel="stylesheet" href="TAB.CSS">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula-I-nformations</title>
+
+    <script>
+        $('.nav-link').on('click', function() {
+	$('.active-link').removeClass('active-link');
+	$(this).addClass('active-link');
+});
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">DRIVERS</button>
+                    <div class="dropdown-content">
+                        <a href="HAM.HTML">1 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/MERCEDES.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lewis Hamilton</a>
+                        <a href="SCH.HTML">2 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/BENETTON.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael Schumacher</a>
+                        <a href="JMF.HTML">3 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/ALFA ROMEO.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/MERCEDES.png" alt="">&nbsp;<img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;<img class="imgClogo" src="LOGOS/MASERATI.png" alt=""> Juan Manuel Fangio</a>
+                        <a href="PRO.HTML">4 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alain Prost</a>
+                        <a href="VET.HTML">5 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/REDBULL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sebastian Vettel</a>
+                        <a href="SEN.HTML">6 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ayrton Senna</a>
+                        <a href="BRA.HTML">7 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/COOPER.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/BRABHAM.jpg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jack Brabham</a>
+                        <a href="STE.HTML">8 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/MATRA.png" alt="">&nbsp; <img class="imglogo" src="LOGOS/TYRRELL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jackie Stewart</a>
+                        <a href="NIK.HTML">9 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Niki Lauda</a>
+                        <a href="PIQ.HTML">10 &nbsp; <img class="imgClogo" src="Logos/BRABHAM.jpg" alt="">&nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelson Piquet</a>
+                        <a href="ALO.HTML">11 &nbsp; <img class="imgClogo" src="Logos/RENAULT.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fernando Alonso</a>
+                        <a href="VER.HTML">12 &nbsp; <img class="imglogo" src="Logos/REDBULL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Max Verstappen</a>
+                        <a href="ASC.HTML">13 &nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alberto Ascari</a>
+                        <a href="HIL.HTML">14 &nbsp; <img class="imgClogo" src="Logos/BRM.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graham Hill</a>
+                        <a href="JIM.HTML">15 &nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jim Clark</a>
+                        <a href="FIT.HTML">16 &nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Emerson Fittipaldi</a>
+                        <a href="HAK.HTML">17 &nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mika Häkkinen</a>
+                        <a href="RAI.HTML">18 &nbsp; <img class="imgClogo" src="Logos/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kimi Räikkönen</a>
+                        <a href="NOR.HTML">19 &nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lando Norris</a>
+                        <a href="LAT.HTML">20 &nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Goatifi</a>
+                    </div>
+                  </div>
+        
+                  <a href="Teams.HTML">TEAMS</a>
+        
+                  <a href="CIRCUITS.HTML">CIRCUITS</a>
+        
+                  <div class="dropdown">
+                    <button class="dropbtn">RULES</button>
+                    <div class="subnav-content">
+                        <a href="PEN.HTML">PENALTIES</a>
+                        <a href="FLAG.HTML">FLAGS</a>
+                        <a href="PIT.HTML">PIT</a>
+                        <a href="SC.HTML">SAFETY CAR</a>
+                        <a href="PNTS.HTML">POINTS</a>
+                        <a href="QUAL.HTML">QUALIFICATIONS</a>
+                        <a href="ENG.HTML">CAR & ENGINE</a>
+                    </div>
+                  </div>
+        
+                  <a href="STORIES.HTML">STORIES</a>
+            </div>
+        </header>
+    
+        <div class="leftNav">
+            <a href="FI.HTML"><img src="Logos/FILOGO.png" alt="FI logo"></a>
+            <div class="leftCol">
+                <ul>
+                    <li>
+                        <a href="F1.HTML">F1</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="CAR.HTML">F1-CAR</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="DRIVER.HTML">F1-DRIVER</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="CIRCUIT.HTML">F1-CIRCUIT</a>
+                        <div class="underline"></div>
+                    </li>
+                </ul>
+                <footer>
+                    <ul class="icon">
+                        <li><a href="https://www.instagram.com/f1/"><img src="ICON/instaIcon.png" alt=""></a><a href="https://www.youtube.com/@Formula1"><img src="ICON/YTicon.png" alt=""></a></li>
+                        <li><a href=""><img src="ICON/SCicon1.png" alt=""></a><a href="https://www.facebook.com/Formula1"><img src="icon/FBicon.png" alt=""></a></li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+        
+
+    <main>
+      <h1>CIRCUITS</h1>
+          <div class="CircuitGal">
+            <div class="box">
+              <div class="imgBx">
+                <img src="CircuitsImg/1.png" alt="" />
+              </div>
+              <div class="content">
+                <div>
+                  <h2>Autodromo Nazionale di Monza</h2>
+                  <p>
+                    First Grand Prix: 1950 <br>
+                    Circuit Length: 5.793 km <br>
+                    Lap Record: 1:21.046 (Rubens Barrichello (2004))
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/2.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Circuit de Monaco</h2>
+                    <p>
+                      First Grand Prix: 1950 <br>
+                      Circuit Length: 3.337 km <br>
+                      Lap Record: 1:12.909 (Lewis Hamilton (2021))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/3.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Silverstone Circuit</h2>
+                    <p>
+                      First Grand Prix: 1950 <br>
+                      Circuit Length: 5.891 km <br>
+                      Lap Record: 1:27.097 (Max Verstappen (2021))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/4.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Circuit de Spa-Francorchamps</h2>
+                    <p>
+                      First Grand Prix: 1950 <br>
+                      Circuit Length: 7.004 km <br>
+                      Lap Record: 1:46.286 (Valtteri Bottas (2018))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/5.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Circuit Gilles-Villeneuve</h2>
+                    <p>
+                      First Grand Prix: 1978 <br>
+                      Circuit Length: 4.361 km <br>
+                      Lap Record: 1:13.078 (Valtteri Bottas (2019)
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/6.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Nürburgring</h2>
+                    <p>
+                      First Grand Prix: 2002 <br>
+                      Circuit Length: 5.148 km <br>
+                      Lap Record: 1:28.139 (Max Verstappen (2020))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/7.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Autodromo José Carlos Pace</h2>
+                    <p>
+                      First Grand Prix: 1973 <br>
+                      Circuit Length: 4.309 km <br>
+                      Lap Record: 1:10.540 (Valtteri Bottas (2018))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/8.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Hockenheimring</h2>
+                    <p>
+                      First Grand Prix: 2002 <br>
+                      Circuit Length: 4.574 km <br>
+                      Lap Record:  ( Kimi Räikkönen (2004))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/9.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Hungaroring</h2>
+                    <p>
+                      First Grand Prix: 1986 <br>
+                      Circuit Length: 4.381 km <br>
+                      Lap Record: 1:16.627 (Lewis Hamilton (2020))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/10.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Red Bull Ring</h2>
+                    <p>
+                      First Grand Prix: 1970 <br>
+                      Circuit Length: 4.318 km <br>
+                      Lap Record: 1:05.619 (Carlos Sainz (2020))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/11.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Circuit de Barcelona-Catalunya</h2>
+                    <p>
+                      First Grand Prix: 1991 <br>
+                      Circuit Length: 4.675 km <br>
+                      Lap Record: 1:18.149 (Max Verstappen (2021))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/12.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Circuit Zandvoort</h2>
+                    <p>
+                      First Grand Prix: 1952 <br>
+                      Circuit Length: 4.259 km <br>
+                      Lap Record: 1:11.097 (Lewis Hamilton (2021))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/13.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Suzuka International Racing Course</h2>
+                    <p>
+                      First Grand Prix: 1987 <br>
+                      Circuit Length: 5.807 km <br>
+                      Lap Record: 1:30.983 (Lewis Hamilton (2019))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/14.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Autodromo Enzo e Dino Ferrari</h2>
+                    <p>
+                      First Grand Prix: 1980 <br>
+                      Circuit Length: 4.909 km <br>
+                      Lap Record: 1:15.484 (Lewis Hamilton (2020))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/15.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Albert Park Circuit</h2>
+                    <p>
+                      First Grand Prix: 1996 <br>
+                      Circuit Length: 5.278 km <br>
+                      Lap Record: 1:20.260 (Charles Leclerc (2022))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/16.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Autódromo Hermanos Rodríguez</h2>
+                    <p>
+                      First Grand Prix: 1963 <br>
+                      Circuit Length: 4.304 km <br>
+                      Lap Record: 1:17.774 (Valtteri Bottas (2021))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/17.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Bahrain International Circuit</h2>
+                    <p>
+                      First Grand Prix: 2004 <br>
+                      Circuit Length: 5.412 km <br>
+                      Lap Record: 1:31.447 (Pedro de la Rosa (2005))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/18.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Circuit Paul Ricard</h2>
+                    <p>
+                      First Grand Prix: 1971 <br>
+                      Circuit Length: 5.842 km <br>
+                      Lap Record: 1:32.740 (Sebastian Vettel (2019))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/19.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Shanghai International Circuit</h2>
+                    <p>
+                      First Grand Prix: 2004 <br>
+                      Circuit Length: 5.451 km <br>
+                      Lap Record: 1:32.238 (Michael Schumacher (2004))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/20.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Marina Bay Street Circuit</h2>
+                    <p>
+                      First Grand Prix: 2008 <br>
+                      Circuit Length: 5.063 km <br>
+                      Lap Record: 1:41.905 (Kevin Magnussen (2018))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/21.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Yas Marina Circuit</h2>
+                    <p>
+                      First Grand Prix: 2009 <br>
+                      Circuit Length: 5.281 km <br>
+                      Lap Record: 1:26.103 (Max Verstappen (2021))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/22.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Circuit of the Americas</h2>
+                    <p>
+                      First Grand Prix: 2012 <br>
+                      Circuit Length: 5.513 km <br>
+                      Lap Record: 1:36.169 (Charles Leclerc (2019))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/23.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Baku City Circuit</h2>
+                    <p>
+                      First Grand Prix: 2016 <br>
+                      Circuit Length: 6.003 km <br>
+                      Lap Record: 1:43.009 (Charles Leclerc (2019))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/24.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Jeddah Corniche Circuit</h2>
+                    <p>
+                      First Grand Prix: 2021 <br>
+                      Circuit Length: 6.174 km <br>
+                      Lap Record: 1:30.734 (Lewis Hamilton (2021))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/25.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Losail International Circuit</h2>
+                    <p>
+                      First Grand Prix: 2004 <br>
+                      Circuit Length: 5.380 km <br>
+                      Lap Record: 1:23.196 (Max Verstappen (2021))
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="imgBx">
+                  <img src="CircuitsImg/26.png" alt="" />
+                </div>
+                <div class="content">
+                  <div>
+                    <h2>Miami International Autodrome</h2>
+                    <p>
+                      First Grand Prix: 2022 <br>
+                      Circuit Length: 5.412 km <br>
+                      Lap Record: 1:31.361 (Max Verstappen (2022))
+                    </p>
+                  </div>
+                </div>
+              </div>
+            
+    </main>
+
+    </div>
+</body>
+</html>

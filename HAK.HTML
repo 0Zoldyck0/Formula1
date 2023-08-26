@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Mobile.css">
+    <link rel="stylesheet" href="TAB.CSS">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula-I-nformations</title>
+
+    <script>
+        $('.nav-link').on('click', function() {
+	$('.active-link').removeClass('active-link');
+	$(this).addClass('active-link');
+});
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">DRIVERS</button>
+                    <div class="dropdown-content">
+                        <a href="HAM.HTML">1 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/MERCEDES.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lewis Hamilton</a>
+                        <a href="SCH.HTML">2 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/BENETTON.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Michael Schumacher</a>
+                        <a href="JMF.HTML">3 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/ALFA ROMEO.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/MERCEDES.png" alt="">&nbsp;<img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;<img class="imgClogo" src="LOGOS/MASERATI.png" alt=""> Juan Manuel Fangio</a>
+                        <a href="PRO.HTML">4 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alain Prost</a>
+                        <a href="VET.HTML">5 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/REDBULL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sebastian Vettel</a>
+                        <a href="SEN.HTML">6 &nbsp;&nbsp;&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ayrton Senna</a>
+                        <a href="BRA.HTML">7 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/COOPER.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/BRABHAM.jpg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jack Brabham</a>
+                        <a href="STE.HTML">8 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="Logos/MATRA.png" alt="">&nbsp; <img class="imglogo" src="LOGOS/TYRRELL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jackie Stewart</a>
+                        <a href="NIK.HTML">9 &nbsp;&nbsp;&nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Niki Lauda</a>
+                        <a href="PIQ.HTML">10 &nbsp; <img class="imgClogo" src="Logos/BRABHAM.jpg" alt="">&nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nelson Piquet</a>
+                        <a href="ALO.HTML">11 &nbsp; <img class="imgClogo" src="Logos/RENAULT.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fernando Alonso</a>
+                        <a href="VER.HTML">12 &nbsp; <img class="imglogo" src="Logos/REDBULL.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Max Verstappen</a>
+                        <a href="ASC.HTML">13 &nbsp; <img class="imgClogo" src="LOGOS/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alberto Ascari</a>
+                        <a href="HIL.HTML">14 &nbsp; <img class="imgClogo" src="Logos/BRM.png" alt="">&nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Graham Hill</a>
+                        <a href="JIM.HTML">15 &nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jim Clark</a>
+                        <a href="FIT.HTML">16 &nbsp; <img class="imgClogo" src="LOGOS/LOTUS.png" alt="">&nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Emerson Fittipaldi</a>
+                        <a href="HAK.HTML">17 &nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mika Häkkinen</a>
+                        <a href="RAI.HTML">18 &nbsp; <img class="imgClogo" src="Logos/FERRARI.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kimi Räikkönen</a>
+                        <a href="NOR.HTML">19 &nbsp; <img class="imglogo" src="Logos/MCLAREN.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lando Norris</a>
+                        <a href="LAT.HTML">20 &nbsp; <img class="imgClogo" src="LOGOS/WILLIAMS.png" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Goatifi</a>
+                    </div>
+                  </div>
+        
+                  <a href="Teams.HTML">TEAMS</a>
+        
+                  <a href="CIRCUITS.HTML">CIRCUITS</a>
+        
+                  <div class="dropdown">
+                    <button class="dropbtn">RULES</button>
+                    <div class="subnav-content">
+                        <a href="PEN.HTML">PENALTIES</a>
+                        <a href="FLAG.HTML">FLAGS</a>
+                        <a href="PIT.HTML">PIT</a>
+                        <a href="SC.HTML">SAFETY CAR</a>
+                        <a href="PNTS.HTML">POINTS</a>
+                        <a href="QUAL.HTML">QUALIFICATIONS</a>
+                        <a href="ENG.HTML">CAR & ENGINE</a>
+                    </div>
+                  </div>
+        
+                  <a href="STORIES.HTML">STORIES</a>
+            </div>
+        </header>
+    
+        <div class="leftNav">
+            <a href="FI.HTML"><img src="Logos/FILOGO.png" alt="FI logo"></a>
+            <div class="leftCol">
+                <ul>
+                    <li>
+                        <a href="F1.HTML">F1</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="CAR.HTML">F1-CAR</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="DRIVER.HTML">F1-DRIVER</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li>
+                        <a href="CIRCUIT.HTML">F1-CIRCUIT</a>
+                        <div class="underline"></div>
+                    </li>
+                </ul>
+                <ul class="icon">
+                    <li><a href="https://www.instagram.com/f1/"><img src="ICON/instaIcon.png" alt=""></a><a href="https://www.youtube.com/@Formula1"><img src="ICON/YTicon.png" alt=""></a></li>
+                    <li><a href=""><img src="ICON/SCicon1.png" alt=""></a><a href="https://www.facebook.com/Formula1"><img src="icon/FBicon.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <main>
+            <table border="1">
+                <tr class="bgdriver">
+                    <th colspan="2"><img src="DriversImg/Mika.png" alt=""></th>
+                </tr>
+                <tr>
+                    <th>Nationality</th>
+                    <td>Finland <img src="icon/finland.jpg" alt=""></td>
+                </tr>
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>28 September 1968 (age 54)</td>
+                </tr>
+                <tr>
+                    <th>Place of Birth</th>
+                    <td>Vantaa, Uusimaa, Finland</td>
+                </tr>
+                <tr>
+                    <th>Teams</th>
+                    <td>Lotus, McLaren</td>
+                </tr>
+                <tr>
+                    <th>Height</th>
+                    <td>1.79m</td>
+                </tr>
+                <tr>
+                    <th>Debut</th>
+                    <td>1991 United States Grand Prix(Lotus)</td>
+                </tr>
+                <tr>
+                    <th>Championship</th>
+                    <td>1998, 1999 (2)</td>
+                </tr>
+                <tr>
+                    <th>First Win</th>
+                    <td>1997 European Grand Prix(McLaren)</td>
+                </tr>
+                <tr>
+                    <th>Car Number</th>
+                    <td>1-3-11</td>
+                </tr>
+                <tr>
+                    <th>Wins</th>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th>Podiums</th>
+                    <td>51</td>
+                </tr>
+                <tr>
+                    <th>Pole Positions</th>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <th>Front Row Starts</th>
+                    <td>39</td>
+                </tr>
+                <tr>
+                    <th>Fastest Laps</th>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <th>Grands Prix Entered</th>
+                    <td>165</td>
+                </tr>
+                <tr>
+                    <th>Points</th>
+                    <td>420</td>
+                </tr>
+            </table>
+    
+            <h1>Mika Pauli Häkkinen</h1>
+            <P>&nbsp;&nbsp;&nbsp;Häkkinen nicknamed "The Flying Finn", is a Finnish former racing driver. He won the Formula One World Drivers' Championship in 1998 and 1999, both times driving for McLaren. Häkkinen is one of three Formula One drivers from Finland that have won the World Drivers' Championship, and the only one to have done so more than once. He currently works in driver management and is a brand ambassador for various companies.</P>
+            <p>&nbsp;&nbsp;&nbsp;He began his career in karting at the age of five and achieved success by winning regional and national kart championships. He progressed to car racing when he entered the Formula Ford and Formula Three series in Italy and the United Kingdom. After success in the series, Häkkinen entered Formula One in 1991 with the Team Lotus where he remained until 1992. The following year, he moved to McLaren as test driver before he was promoted to the race team following the departure of Michael Andretti.</p>
+            <iframe src="https://www.youtube.com/embed/8LKQXeWCZYg" frameborder="1"></iframe>
+            <p>&nbsp;&nbsp;&nbsp;After four years which yielded minor success, Häkkinen scored his first Formula One victory in 1997. He went on to win eight races of the 1998 season, securing the World Drivers' Championship at the season-ending Japanese Grand Prix; his success also helped McLaren secure the World Constructors' Championship. He repeated his World Championship success in 1999, taking five victories. He finished as runner-up in the Drivers' Championship in 2000, behind Michael Schumacher and secured two more victories in 2001 before announcing a sabbatical from the sport, which became full-time retirement in mid-2002. For 2005, Häkkinen moved to the Deutsche Tourenwagen Masters series, where he secured his first victory that year. His form faded during 2006 although he secured two more victories in 2007.</p>
+            
+            <h2>Nearly Killed In A Crash</h2>
+            <p>&nbsp;&nbsp;&nbsp;Formula One has come a long way in improving drivers' safety throughout the years, as evidenced by Romain Grosjean walking away from a horrific crash in the 2020 Bahrain Grand Prix. Back in the 90s, the Flying Finn was also involved in a freak accident that could have killed him. Hakkinen's car suffered a left-rear puncture during the qualifying session of the 1995 Australian Grand Prix that sent the car airborne and sideways into the barriers at high speed. He sustained a skull fracture and a blockage of his airway. Luckily, an emergency trackside tracheotomy enabled him to breathe and regain consciousness, and the hospital that saved his life was just 200 meters away from the crash site.</p>
+            
+           </main>
+
+    <footer>
+
+    </footer>
+    </div>
+</body>
+</html>
